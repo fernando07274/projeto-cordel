@@ -38,3 +38,12 @@ article{
     font-size: 2.5em;
     font-family: cursive, Arial, Helvetica, sans-serif;
 }
+
+div.imagem1{
+    background-image: url(/imagens/background001.jpg);
+    height: 100vh; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
