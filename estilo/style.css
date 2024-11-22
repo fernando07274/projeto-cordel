@@ -1,9 +1,22 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DynaPuff:wght@400..700&display=swap');
+
+:root{
+    
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
 header{
     text-align: center;
     background-color: black;
+    color: white;
+    padding: 70px;
 }
 header > h1{
-    font-size: 2em;
+    font-size: 6em;
 }
