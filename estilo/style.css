@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+header{
+    text-align: center;
+    background-color: black;
+}
+header > h1{
+    font-size: 2em;
+}
