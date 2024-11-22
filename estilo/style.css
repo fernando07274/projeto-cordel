@@ -2,21 +2,39 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DynaPuff:wght@400..700&display=swap');
 
-:root{
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DynaPuff:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root{
+    --fontegordinha: 'DynaPuff';
+    --fontedotexto: 'Fira Sans';
+}
 
 *{
     margin: 0px;
     padding: 0px;
 }
+
 header{
     text-align: center;
     background-color: black;
     color: white;
     padding: 70px;
 }
+
 header > h1{
     font-size: 6em;
+    font-family: var(--fontegordinha);
+}
+
+header > p{
+    font-size: 1.5em;
+}
+
+a{
+    color: white;
+}
+
+article{
+    font-size: 2.5em;
+    font-family: cursive, Arial, Helvetica, sans-serif;
 }
