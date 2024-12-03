@@ -51,13 +51,32 @@ section{
 section.imagem{
     background-color: rgb(53, 53, 53);
     color: white;
-
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.192);
     display: inline-block;
     padding: 5px;
+}
+
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right;
+    background-size: cover;
+    box-shadow: inset 5px 6px 13px 0px rgba(0, 0, 0, 0.445);
+}
+
+section#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right; 
+    background-size: cover;
+    box-shadow: inset 5px 6px 13px 0px rgba(0, 0, 0, 0.445);
 }
 
 a{
